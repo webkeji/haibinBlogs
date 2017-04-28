@@ -19028,10 +19028,10 @@ cr.behaviors.destroy = function(runtime)
 	};
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Sprite,
 	cr.plugins_.Text,
-	cr.plugins_.Touch,
+	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
+	cr.plugins_.Touch,
 	cr.behaviors.Sin,
 	cr.behaviors.bound,
 	cr.behaviors.Bullet,
