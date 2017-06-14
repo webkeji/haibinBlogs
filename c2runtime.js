@@ -19600,10 +19600,10 @@ cr.behaviors.jumpthru = function(runtime)
 	behaviorProto.acts = new Acts();
 }());
 cr.getObjectRefTable = function () { return [
-	cr.plugins_.Sprite,
-	cr.plugins_.Text,
-	cr.plugins_.Touch,
 	cr.plugins_.Keyboard,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
+	cr.plugins_.Text,
 	cr.behaviors.Platform,
 	cr.behaviors.Rex_Platform_MoveTo,
 	cr.behaviors.jumpthru,
